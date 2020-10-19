@@ -1,4 +1,4 @@
-song_id,playlist_name,playlist_fct,track_artists,track.name,danceability,energy,loudness,speechiness,acousticness,liveness,tempo,instrumentalness,valence,track.popularity,track.duration_ms,track.explicit,is_local
+song_id,playlist_name,decade_fct,track_artists,track.name,danceability,energy,loudness,speechiness,acousticness,liveness,tempo,instrumentalness,valence,track.popularity,track.duration_ms,track.explicit,is_local
 1,decades_70,1,Elton John,"Rocket Man (I Think It's Going To Be A Long, Long Time)",0.601,0.532,-9.119,0.0286,0.432,0.0925,136.571,6.25E-06,0.341,81,281613,FALSE,FALSE
 2,decades_70,1,Stevie Wonder,"Signed, Sealed, Delivered (I'm Yours)",0.67,0.619,-10.365,0.0323,0.0514,0.0492,108.826,0,0.807,1,160500,FALSE,FALSE
 3,decades_70,1,Eric Clapton,Wonderful Tonight,0.572,0.214,-15.625,0.0293,0.649,0.125,95.542,0.129,0.485,76,225026,FALSE,FALSE
