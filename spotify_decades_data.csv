@@ -1,0 +1,61 @@
+song_id,playlist_name,playlist_fct,track_artists,track.name,danceability,energy,loudness,speechiness,acousticness,liveness,tempo,instrumentalness,valence,track.popularity,track.duration_ms,track.explicit,is_local
+1,decades_70,1,Elton John,"Rocket Man (I Think It's Going To Be A Long, Long Time)",0.601,0.532,-9.119,0.0286,0.432,0.0925,136.571,6.25E-06,0.341,81,281613,FALSE,FALSE
+2,decades_70,1,Stevie Wonder,"Signed, Sealed, Delivered (I'm Yours)",0.67,0.619,-10.365,0.0323,0.0514,0.0492,108.826,0,0.807,1,160500,FALSE,FALSE
+3,decades_70,1,Eric Clapton,Wonderful Tonight,0.572,0.214,-15.625,0.0293,0.649,0.125,95.542,0.129,0.485,76,225026,FALSE,FALSE
+4,decades_70,1,Chaka Khan,I'm Every Woman,0.617,0.879,-7.564,0.0455,0.127,0.339,114.453,5.71E-05,0.746,58,247413,FALSE,FALSE
+5,decades_70,1,Marvin Gaye,Got To Give It Up - Album Edit,0.838,0.806,-9.738,0.0408,0.213,0.354,123.121,0.00203,0.846,0,361093,FALSE,FALSE
+6,decades_70,1,Michael Jackson,Rock with You - Single Version,0.808,0.535,-12.521,0.0353,0.179,0.158,114.031,9.91E-05,0.848,72,220626,FALSE,FALSE
+7,decades_70,1,Eagles,Hotel California - 2013 Remaster,0.579,0.508,-9.484,0.027,0.00574,0.0575,147.125,0.000494,0.609,62,391376,FALSE,FALSE
+8,decades_70,1,Barry White,"You're The First, The Last, My Everything",0.631,0.59,-12.138,0.0297,0.00367,0.0537,130.145,0.00299,0.927,66,208933,FALSE,FALSE
+9,decades_70,1,TOTO,Hold the Line,0.482,0.835,-7.68,0.0539,0.0191,0.162,96.444,0.0143,0.776,66,236106,FALSE,FALSE
+10,decades_70,1,Sister Sledge,He's the Greatest Dancer,0.7,0.816,-9.711,0.044,0.00115,0.0901,113.244,0.00123,0.838,63,375400,FALSE,FALSE
+11,decades_70,1,"Earth, Wind & Fire",September,0.694,0.831,-7.288,0.0301,0.165,0.25,125.901,0.000892,0.98,66,215080,FALSE,FALSE
+12,decades_70,1,The O'Jays,Now That We Found Love,0.719,0.645,-8.405,0.0387,0.251,0.273,113.965,4.09E-06,0.961,0,281200,FALSE,FALSE
+13,decades_70,1,Bee Gees,Stayin' Alive - Remastered Version,0.675,0.899,-6.124,0.0418,0.0696,0.33,103.683,0.000139,0.91,0,285200,FALSE,FALSE
+14,decades_70,1,The Emotions,Best of My Love,0.784,0.713,-6.865,0.0339,0.447,0.0904,115.443,0.14,0.97,67,220560,FALSE,FALSE
+15,decades_70,1,The Beatles,Let It Be - Remastered 2009,0.443,0.403,-8.339,0.0322,0.631,0.111,143.462,0,0.41,78,243026,FALSE,FALSE
+16,decades_80,2,Luther Vandross,Never Too Much,0.734,0.583,-11.866,0.129,0.125,0.0367,109.935,0,0.76,71,230466,FALSE,FALSE
+17,decades_80,2,Tracy Chapman,Baby Can I Hold You,0.692,0.422,-10.533,0.0333,0.0811,0.0848,74.375,0,0.468,76,193120,FALSE,FALSE
+18,decades_80,2,U2,I Still Haven't Found What I'm Looking For - Remastered 2007,0.565,0.764,-9.43,0.0351,0.0139,0.079,100.891,0.00488,0.686,0,277480,FALSE,FALSE
+19,decades_80,2,Tina Turner,What's Love Got to Do with It,0.851,0.406,-11.631,0.0661,0.219,0.0853,97.84,6.41E-06,0.792,74,226880,FALSE,FALSE
+20,decades_80,2,Huey Lewis & The News,The Power Of Love,0.768,0.829,-5.109,0.0313,0.0964,0.097,118.773,2.92E-05,0.962,77,234333,FALSE,FALSE
+21,decades_80,2,"Soul II Soul, Caron Wheeler",Back To Life,0.817,0.485,-11.659,0.143,0.0525,0.0391,100.978,0.00021,0.672,63,228266,FALSE,FALSE
+22,decades_80,2,Bryan Adams,Summer Of '69,0.508,0.834,-6.205,0.0386,0.0183,0.0732,139.131,0,0.774,82,216053,FALSE,FALSE
+23,decades_80,2,Chaka Khan,Ain't Nobody,0.799,0.878,-7.109,0.0434,0.189,0.14,104.284,0.000105,0.816,69,280853,FALSE,FALSE
+24,decades_80,2,Whitney Houston,I Wanna Dance with Somebody (Who Loves Me),0.709,0.824,-8.824,0.0453,0.207,0.0888,118.818,0.000307,0.867,82,291293,FALSE,FALSE
+25,decades_80,2,Marvin Gaye,Sexual Healing,0.805,0.601,-9.7,0.0579,0.119,0.0581,94.382,0.000129,0.746,72,238600,FALSE,FALSE
+26,decades_80,2,Michael Jackson,Billie Jean,0.92,0.654,-3.051,0.0401,0.0236,0.0359,117.046,0.0158,0.847,82,293826,FALSE,FALSE
+27,decades_80,2,Diana Ross,I'm Coming Out,0.72,0.828,-9.211,0.0462,0.185,0.0839,110.071,0.429,0.768,66,323346,FALSE,FALSE
+28,decades_80,2,Whitney Houston,Saving All My Love for You,0.636,0.264,-14.567,0.0263,0.593,0.275,99.304,4.22E-05,0.264,66,238466,FALSE,FALSE
+29,decades_80,2,Womack & Womack,Teardrops,0.872,0.715,-10.182,0.0468,0.0876,0.177,133.225,0.0706,0.967,65,228573,FALSE,FALSE
+30,decades_80,2,Inner City,Good Life,0.716,0.783,-12.876,0.0496,0.172,0.0327,121.306,0.0346,0.952,60,244773,FALSE,FALSE
+31,decades_90,3,Backstreet Boys,I Want It That Way,0.689,0.702,-5.642,0.0261,0.216,0.159,99.031,0,0.484,76,213600,FALSE,FALSE
+32,decades_90,3,Natalie Imbruglia,Torn,0.559,0.928,-3.04,0.0355,0.0746,0.696,96.315,5.56E-05,0.599,69,244813,FALSE,FALSE
+33,decades_90,3,Ms. Lauryn Hill,Doo Wop (That Thing),0.535,0.505,-8.926,0.245,0.0393,0.0923,99.935,0,0.495,0,320266,FALSE,FALSE
+34,decades_90,3,"Roxette, Humberto Gattica","It Must Have Been Love - From the Film ""Pretty Woman""",0.52,0.652,-6.655,0.0274,0.34,0.256,80.609,5.49E-05,0.722,75,258786,FALSE,FALSE
+35,decades_90,3,Oasis,Wonderwall,0.409,0.892,-4.373,0.0336,0.000807,0.207,174.426,0,0.651,0,258613,FALSE,FALSE
+36,decades_90,3,Eagle-Eye Cherry,Save Tonight,0.548,0.742,-6.536,0.0337,0.000154,0.109,119.496,3.97E-05,0.583,55,236040,FALSE,FALSE
+37,decades_90,3,"Janet Jackson, Q-Tip, Joni Mitchell",Got 'Til It's Gone,0.789,0.412,-7.518,0.243,0.0218,0.3,89.914,0.000312,0.518,64,241760,TRUE,FALSE
+38,decades_90,3,Sinead O'Connor,Nothing Compares 2 U,0.511,0.574,-7.016,0.0273,0.0425,0.105,119.917,2.33E-05,0.161,75,280040,FALSE,FALSE
+39,decades_90,3,Toni Braxton,He Wasn't Man Enough,0.737,0.927,-4.191,0.0414,0.0108,0.384,88.014,2.90E-05,0.745,50,262093,FALSE,FALSE
+40,decades_90,3,Deep Blue Something,Breakfast At Tiffany's,0.624,0.826,-5.534,0.0287,0.113,0.0938,110.368,0,0.526,69,257186,FALSE,FALSE
+41,decades_90,3,SWV,Right Here - Human Nature Radio Mix,0.615,0.72,-5.16,0.0658,0.068,0.0889,94.002,0.0105,0.696,58,226946,FALSE,FALSE
+42,decades_90,3,Red Hot Chili Peppers,Under the Bridge,0.559,0.345,-13.496,0.0459,0.0576,0.141,84.581,0.000105,0.458,81,264306,FALSE,FALSE
+43,decades_90,3,Erykah Badu,On & On,0.762,0.403,-10.423,0.158,0.0396,0.256,80.476,0.0113,0.346,67,226133,TRUE,FALSE
+44,decades_90,3,Spice Girls,Wannabe,0.768,0.864,-6.145,0.0324,0.101,0.162,110.008,0,0.891,79,173026,FALSE,FALSE
+45,decades_90,3,"Brandy, Monica",The Boy Is Mine,0.704,0.707,-6.537,0.0391,0.539,0.318,93.145,0.00106,0.761,68,294786,FALSE,FALSE
+46,decades_00,4,Maroon 5,This Love,0.714,0.868,-4.596,0.0363,0.0551,0.0987,95.05,0,0.78,0,206200,FALSE,FALSE
+47,decades_00,4,Usher,U Remind Me,0.657,0.629,-4.938,0.0782,0.194,0.254,93.985,0,0.726,73,266893,FALSE,FALSE
+48,decades_00,4,"Lady Gaga, Colby O'Donis",Just Dance,0.821,0.741,-4.57,0.0313,0.0278,0.19,118.984,2.51E-05,0.741,66,244440,FALSE,FALSE
+49,decades_00,4,Amerie,1 Thing,0.636,0.946,-4.683,0.332,0.115,0.0416,125.085,3.75E-05,0.891,55,238746,FALSE,FALSE
+50,decades_00,4,"Shakira, Wyclef Jean",Hips Don't Lie (feat. Wyclef Jean),0.778,0.824,-5.892,0.0712,0.284,0.405,100.024,0,0.756,83,218093,FALSE,FALSE
+51,decades_00,4,"Usher, Lil Jon, Ludacris",Yeah!,0.895,0.795,-4.693,0.0977,0.0219,0.0403,105.004,0,0.574,1,250066,FALSE,FALSE
+52,decades_00,4,Rihanna,Pon de Replay,0.779,0.64,-8.415,0.159,0.000155,0.101,99.019,0.00077,0.498,78,246960,FALSE,FALSE
+53,decades_00,4,Toni Braxton,He Wasn't Man Enough,0.739,0.947,-1.915,0.0412,0.00947,0.326,88.009,2.99E-05,0.763,67,261933,FALSE,FALSE
+54,decades_00,4,"Ja Rule, Ashanti",Always On Time,0.839,0.706,-6.119,0.231,0.19,0.205,96.67,0,0.857,53,245373,TRUE,FALSE
+55,decades_00,4,Black Eyed Peas,I Gotta Feeling,0.743,0.766,-6.375,0.0265,0.0873,0.509,127.96,0,0.61,73,289133,FALSE,FALSE
+56,decades_00,4,Kanye West,Through The Wire,0.571,0.739,-6.11,0.247,0.00865,0.158,83.089,5.21E-06,0.66,68,221226,TRUE,FALSE
+57,decades_00,4,Kings of Leon,Sex on Fire,0.544,0.903,-5.651,0.0545,0.00166,0.1,153.629,0.00632,0.432,0,204586,FALSE,FALSE
+58,decades_00,4,"Jennifer Lopez, Ja Rule",I'm Real (feat. Ja Rule) - Murder Remix,0.708,0.587,-7.93,0.151,0.273,0.0718,83.46,0,0.554,64,262133,TRUE,FALSE
+59,decades_00,4,Britney Spears,Oops!...I Did It Again,0.751,0.834,-5.444,0.0437,0.3,0.355,95.053,1.77E-05,0.894,78,211160,FALSE,FALSE
+60,decades_00,4,"Beyonce, Sean Paul",Baby Boy (feat. Sean Paul),0.655,0.488,-9.17,0.22,0.0825,0.221,91.025,1.16E-06,0.791,65,244826,FALSE,FALSE
