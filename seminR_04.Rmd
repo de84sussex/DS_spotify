@@ -1,0 +1,115 @@
+---
+title: "SeminR Week 4"
+author: "DE"
+date: "18/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(here)
+
+```
+
+```{r load_data}
+
+spotify_data <- here::here("data/spotify_decades_data.csv") %>% 
+  readr::read_csv() %>% 
+  mutate(decade_fct = factor(decade_fct, 
+                               labels = c("70s", "80s", "90s", "00s")))
+
+
+spotify_data_2 <- url("https://raw.githubusercontent.com/de84sussex/DS_spotify/main/spotify_decades_data.csv") %>% 
+  readr::read_csv() %>% 
+  mutate(decade_fct = factor(decade_fct, 
+                               labels = c("70s", "80s", "90s", "00s")))
+View(spotify_data_2)
+
+View(spotify_data)
+
+str(spotify_data) # looks at dataset - can check different data types here & make sure all is what we expect
+
+
+```
+
+```{r sum_data}
+
+summary(spotify_data) # shows summary/descriptive statistics for all variables in the dataset as a whole
+
+```
+
+Mean danceability for whole dataset: 0.6847  
+
+
+```{r}
+
+dance_desc <- spotify_data %>% 
+  group_by(decade_fct) %>% 
+  summarise(
+    mean_dance = mean(danceability), 
+    sd_dance = sd(danceability), 
+    min_dance = min(danceability),
+    max_dance = max(danceability)
+    )
+
+dance_desc # to view the object we created above
+
+```
+
+
+```{r sum_decades}
+
+dance_full_desc <- spotify_data %>% # creates new object called dance desc, pipes dataset through to next line
+  group_by(decade_fct) %>% # groups by decade factor
+  summarise(
+    mean_dance = mean(danceability), # creates columns of  summary stats of mean danceability
+    sd_dance = sd(danceability), # creates column of sd of danceability
+    min_dance = min(danceability), # creates column of min danceability
+    max_dance = max(danceability) # creates column of max danceability
+    )
+
+dance_full_desc # to view the object we created above
+
+```
+
+Min & max danceability for whole dataset: 0.4090, 0.9200  
+
+Which decade has the highest and lowest average danceability: 80s highest, 90s lowest  
+
+
+
+# Spotify Variables
+
+**danceability (dbl)** - Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable
+
+**energy (dbl)** - Energy is a measure from 0.0 (low energy) to 1.0 (high energy) and represents a perceptual measure of intensity and activity  
+
+**loudness (dbl)** - The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db  
+
+**speechiness (dbl)** - Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value  
+
+**acousticness (dbl)** - A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic  
+
+**instrumentalness (dbl)** - The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content  
+
+**liveness (dbl)** - Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live  
+
+**valence (dbl)** - A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry  
+
+**tempo (dbl)** - The overall estimated tempo of a track in beats per minute (BPM)  
+
+**is_local (lgl)** - is track local to users device?   
+
+**track.explicit (lgl)** - does track have explicit content?   
+
+**track.name (chr)** - track name  
+
+**track.popularity (int)** - score from 0-100  
+
+**track.duration_ms (int)** - The duration of the track in milliseconds  
+
+
+
+
