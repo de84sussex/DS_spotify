@@ -1,0 +1,7 @@
+track.name,track_artists,danceability,enerGy,liveness,tempo_,VAlence,track.popularity,track.duration_ms
+Doo Wop (That Thing),Ms. Lauryn Hill,0.535,0.505,0.0923,99.935,0.495,0,320266
+On & On,Erykah Badu,0.762,0.403,0.256,80.476,0.346,67,226133
+Pon de Replay,Rihanna,0.779,0.64,0.101,99.019,0.498,78,246960
+Always On Time,"Ja Rule, Ashanti",0.839,0.706,0.205,96.67,0.857,53,245373
+Through The Wire,Kanye West,0.571,0.739,0.158,83.089,0.66,68,221226
+Baby Boy ,"Beyonce, Sean Paul",0.655,0.488,0.221,91.025,0.791,65,244826

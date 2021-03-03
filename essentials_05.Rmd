@@ -1,0 +1,217 @@
+---
+title: "Essentials Week 05: File Paths & Tables"
+author: "DE"
+date: "03/03/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+```
+
+```{r pckgs, include=F}
+
+# task 1: load packages tidyverse, knitr, kableExtra & here
+
+
+
+
+
+# task 2: run this chunk & look at the output in the console to see where here() starts
+
+```
+
+```{r data-1, include=F}
+
+# read in data_1 here
+
+data_1 <- 
+
+```
+
+```{r data-2, include=F}
+
+# read in data_2 here
+
+data_2 <- 
+
+```
+
+
+<!-- I'll use this Rmd doc to demonstrate different functions & arguments using data_1, then you can try it out yourself with data_2 -->
+
+
+# knitr::kable() arguments  
+
+*knitr::kable() is used to generate tables. There are a number of arguments to the kable() function, the most useful/common being col.names, caption, & digits*    
+
+<br>
+
+```{r table-1}
+
+knitr::kable(data_1)
+
+# this is the original data in a table with no additional formatting
+
+```
+
+<br>
+
+```{r col-names}
+
+knitr::kable(data_1, col.names = c("Track Name", "Artists", "Danceability", "Energy", "Liveness", "Tempo", "Valence", "Popularity", "Track Duration"))
+
+# note that the number of column names you give in this argument MUST match the number of columns in the dataset
+
+```
+
+<br>
+
+```{r caption}
+
+knitr::kable(data_1, col.names = c("Track Name", "Artists", "Danceability", "Energy", "Liveness", "Tempo", "Valence", "Popularity", "Track Duration"), caption = "This is a pretty table now it has a caption.")
+
+# remember that the caption has to be enclose within speech marks
+
+```
+
+<br>
+
+```{r digits}
+
+knitr::kable(data_1, col.names = c("Track Name", "Artists", "Danceability", "Energy", "Liveness", "Tempo", "Valence", "Popularity", "Track Duration"), caption = "This is a pretty table now it has a caption.", digits = 1)
+
+# here im specifying the number of digits for all columns in my table
+
+```
+
+<br>
+
+# Your turn to paRty part 1!
+
+## Tasks
+
+Using the data_2 dataset, create a table with the below specification    
+
+- change the column names to be: Track Name, Artists, Energy, Popularity, Tempo, Valence, Track Duration  
+- add a caption to describe your table  
+- show values to 2 decimal places  
+
+<br>
+
+```{r data-2-table}
+
+# create your table here
+
+
+
+
+
+```
+
+<br>
+
+# kableExtra::kable_styling() arguments  
+
+*kableExtra::kable_styling() is not for generating tables, instead, it adds features to tables with the pipe %>%.  There are a number of options you can set to add/change the formatting of the __whole__ table, the key ones are font_size, position, & bootstrap_options, that will make your table nice and pretty*  
+
+<br>
+
+```{r font-size}
+
+knitr::kable(data_1) %>%
+  kableExtra::kable_styling(font_size = 8)
+
+# this sets the font size
+
+```
+
+<br>
+
+```{r width}
+
+knitr::kable(data_1) %>%
+  kableExtra::kable_styling(font_size = 8, full_width = FALSE)
+
+# here we're setting the font size, whether the table should be the full width (which ive set to FALSE)
+
+```
+
+<br>
+
+```{r position}
+
+knitr::kable(data_1) %>%
+  kableExtra::kable_styling(font_size = 8, full_width = FALSE, position = "left")
+
+# here we're setting the font size, whether the table should be the full width (which ive set to FALSE) and the position of the table
+
+```
+
+<br>
+
+```{r bootstrap-styling}
+
+knitr::kable(data_1) %>%
+  kableExtra::kable_styling(font_size = 8, position = "center", bootstrap_options = "striped")
+
+# here we're setting the font size, table positioning & appearance to be striped
+
+```
+
+<br>
+
+```{r bootstrap-styling-2}
+
+knitr::kable(data_1) %>%
+  kableExtra::kable_styling(font_size = 8, position = "center", bootstrap_options = "hover")
+
+# here we're setting the font size, table positioning & appearance to change colour when we hover over a row
+
+```
+
+<br>
+
+# Combining it all together
+
+*We can easily use kable() and kable_styling() arguments in one pipe to make the most beautiful tables we ever did see*
+
+<br>
+
+```{r table-combo}
+
+knitr::kable(data_1, col.names = c("Track Name", "Artists", "Danceability", "Energy", "Liveness", "Tempo", "Valence", "Popularity", "Track Duration"), caption = "This is a pretty table now it has a caption.", digits = 1) %>%
+  kableExtra::kable_styling(font_size = 8, position = "center", bootstrap_options = "hover")
+
+# here i'm just specifying all our kable() arguments that we used before, then using a pipe to our kableExtra arguments
+
+```
+
+<br>
+
+# Your turn to paRty part 2!  
+
+## Tasks  
+
+1. Recreate your data_2 table in the chunk below with kable() as you did in the first task above  
+
+2. Style your table with kable_styling so that the font size is 12, the full width is FALSE, the position is right, and the appearance (bootstrap_options) is "bordered"  
+
+<br>
+
+```{r data-2-table-styling}
+
+# style your table here by specifying the font size, the width, the positioning, and the bootstrap options
+
+
+
+
+
+```
+
+<br>
+
+
+
+
+
